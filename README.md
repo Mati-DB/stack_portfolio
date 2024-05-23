@@ -7,5 +7,4 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
  - Tableau
  - Python      
 
-<a name="SQL></a>
 ## SQL
