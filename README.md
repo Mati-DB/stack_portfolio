@@ -4,8 +4,6 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 
 ## Index
  - [SQL](#SQL)
- - Tableau
- - Python      
 
 ## SQL
 | Project Link | Area of Analysis | Description | 
