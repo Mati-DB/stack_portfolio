@@ -5,6 +5,7 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 ## Index
  - [SQL](#SQL)
  - [Python](#Python)
+ - Tableau
 
 
 ## SQL
@@ -20,3 +21,9 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 | [Python Interview Questions Lvl 1](https://github.com/Mati-DB/Python-Interview-Questions-Lvl1)   | formula creation, for loops, case statements    | This repo serves as the solution for case studies from DataLemur marked as Easy.  |
 | [Python Interview Questions Lvl 2](https://github.com/Mati-DB/Python-Interview-Questions-Lvl2)   | TBE    | This repo serves as the solution for case studies from DataLemur marked as Medium.  |
 
+***
+
+## Tableau
+| Project Link | Area of Analysis | Description | 
+|--------------|--------------|--------------|
+|  |    |   |
