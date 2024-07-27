@@ -30,5 +30,6 @@ Lastly on the claims analysis, we are able to see how important is each category
 ![Dashboard - Rel to Portfolio Prop Data](https://github.com/user-attachments/assets/16bce255-642a-4ed6-9be7-5cb4b75efd4b)
 
 
+If you want to interact with this Tableau Story, you can find it [here](https://public.tableau.com/views/InsurancePoliciesProjectRealWorldFakeData/InsurancePolicies-ClaimsReported?:language=es-ES&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
 
