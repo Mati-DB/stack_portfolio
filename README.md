@@ -26,4 +26,4 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 ## Tableau
 | Project Link | Area of Analysis | Description | 
 |--------------|--------------|--------------|
-| [Insurance Policies](https://github.com/Mati-DB/stack_portfolio/blob/main/Insurance%20Policies) | Claims Reported,    | This is a case study that show a viz analysis over fictional data of claims reported provided by Tableau |
+| [Insurance Policies](https://github.com/Mati-DB/stack_portfolio/blob/main/Insurance%20Policies) | Claims Reported, Insurance    | This is a case study that shows a viz analysis over fictional data of claims reported provided by Tableau |
