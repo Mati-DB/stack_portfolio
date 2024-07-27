@@ -5,7 +5,7 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 ## Index
  - [SQL](#SQL)
  - [Python](#Python)
- - Tableau (In Process)
+ - [Tableau](#Tableau) (In Process)
 
 
 ## SQL
@@ -26,4 +26,4 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 ## Tableau
 | Project Link | Area of Analysis | Description | 
 |--------------|--------------|--------------|
-| In Process |    |   |
+| In Process | Claims Reported   | This is a case study with fictional data  |
