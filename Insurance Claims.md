@@ -5,7 +5,7 @@ Here I'll explain a case study I created with Tableau Desktop using the Real Wor
 
 Using said file, I prepared a story in Tableau mimicking a job's presentation about a simulated database of a client.
 
-The objective is to showcase the possible categorical variables related to the number of claims reported, claim frequency and intensity (_in process_) in Tableau. As a closure, I'll post some findings (_in process_).
+The objective is to showcase the possible categorical variables related to the number of claims reported, claim frequency and intensity in Tableau. As a closure, I'll post some findings.
 
 ## Project's Description
 
