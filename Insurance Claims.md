@@ -1,6 +1,12 @@
 # Insurance Claims Case Study (In Process)
 Here I'll explain a case study I created with Tableau Desktop using the Real World, Fake Data Project created by Mark Bradbourne. You can find the file [here](https://sonsofhierarchies.com/real-world-fake-data/). 
 
+## Introduction
+
+Using said file, I prepared a story in Tableau mimicking a job's presentation about a simulated database of a client.
+
+The objective is to showcase the possible categorical variables related to the number of claims reported, claim frequency and intensity (_in process_) in Tableau. As a closure, I'll post some findings (_in process_).
+
 ## Project's Description
 
 We got a document from the client's insurance claim database. Here we can see the 10 first records (out of 37k)
