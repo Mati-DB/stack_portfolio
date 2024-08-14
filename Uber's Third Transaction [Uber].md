@@ -12,7 +12,7 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 | Project Link | Area of Analysis | Description | 
 |--------------|--------------|--------------|
 | [SQL Interview Questions Lvl1](https://github.com/Mati-DB/SQL-Interview-Questions)   | Joining/filtering tables    | This repo serves as the solution for case studies from DataLemur marked as Easy.  |
-| [SQL Interview Questions Lvl2]() | CTE, Window Functions, Joins | This repo serves as the solution for case studies from DataLemur marked as Medium  |
+| [SQL Interview Questions Lvl2](https://github.com/Mati-DB/SQL-Interview-Questions-Lvl2/tree/main) | CTE, Window Functions, Joins | This repo serves as the solution for case studies from DataLemur marked as Medium  |
 
 ***
 
