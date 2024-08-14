@@ -7,6 +7,7 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
  - [Python](#Python)
  - [Tableau](#Tableau) (In Process)
 
+***
 
 ## SQL
 | Project Link | Area of Analysis | Description | 
