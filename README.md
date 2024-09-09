@@ -5,7 +5,7 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 ## Index
  - [SQL](#SQL)
  - [Python](#Python)
- - [Tableau](#Tableau) (In Process)
+ - [Tableau](#Tableau)
 
 ***
 
