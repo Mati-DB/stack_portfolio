@@ -20,9 +20,9 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 
 ### Personal Projects
 
-| Name/Link | Area of Analysis | Description | 
+| Name/Link | Area of Analysis | Objective | 
 |--|--|--|
-| Stock Holding vs EMA Crossover Strategy | _Finance, EMAs, Pandas, Seaborn, NumPy, yfinance_ | **Objective:** find out if there is a significant difference between holding stocks over an extended period, or using EMAs in a dynamic trading strategy |
+| Stock Holding vs EMA Crossover Strategy | _Finance, EMAs, Pandas, Seaborn, NumPy, yfinance_ | Find out if there is a significant difference between holding stocks over an extended period, or using EMAs in a dynamic trading strategy |
 
 ### Developer Interview Cases
 
