@@ -17,7 +17,16 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 ***
 
 ## Python
-| Project Link | Area of Analysis | Description | 
+
+### Personal Projects
+
+| Name/Link | Area of Analysis | Description | 
+|--|--|--|
+| Stock Holding vs EMA Crossover Strategy | Finance, EMAs, Pandas, Seaborn, NumPy, yfinance | Objective: to find out if there is a significant difference between holding stocks over an extended period, or using EMAs in a dynamic trading strategy |
+
+### Developer Interview Cases
+
+| Link | Area of Analysis | Description | 
 |--------------|--------------|--------------|
 | [Python Interview Questions Lvl 1](https://github.com/Mati-DB/Python-Interview-Questions-Lvl1)   | def functions, for loops, case statements    | This repo serves as the solution for case studies from DataLemur marked as Easy.  |
 | [Python Interview Questions Lvl 2](https://github.com/Mati-DB/Python-Interview-Questions-Lvl2)   | nested def functions, loops    | This repo serves as the solution for case studies from DataLemur marked as Medium.  |
