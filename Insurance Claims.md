@@ -1,4 +1,4 @@
-# Insurance Claims Case Study (In Process)
+# Insurance Claims Case Study
 Here I'll explain a case study I created with Tableau Desktop using the Real World, Fake Data Project created by Mark Bradbourne. You can find the file [here](https://sonsofhierarchies.com/real-world-fake-data/). 
 
 ## Introduction
