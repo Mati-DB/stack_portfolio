@@ -22,7 +22,7 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 
 | Name/Link | Area of Analysis | Objective | 
 |--|--|--|
-| Stock Holding vs EMA Crossover Strategy | _Finance, EMAs, Pandas, Seaborn, NumPy, yfinance_ | Find out if there is a significant difference between holding stocks over an extended period, or using EMAs in a dynamic trading strategy |
+| [Stock Holding vs EMA Crossover Strategy](https://github.com/Mati-DB/stack_portfolio/blob/main/NVDA_v2.ipynb) | _Finance, EMAs, Pandas, Seaborn, NumPy, yfinance_ | Find out if there is a significant difference between holding stocks over an extended period, or using EMAs in a dynamic trading strategy |
 
 ### Developer Interview Cases
 
