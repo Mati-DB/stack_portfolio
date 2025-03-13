@@ -38,4 +38,4 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 | Project Link | Area of Analysis | Description | 
 |--------------|--------------|--------------|
 | [Insurance Claims](https://github.com/Mati-DB/stack_portfolio/blob/main/Insurance%20Claims.md) | Claims Reported, Frequency, Insurance    | This is a case study that shows a viz analysis over fictional data of claims reported provided by Tableau |
-| Opinión s/ Entidades Financieras | Bar, Column and clustered charts - Spanish language - Financial Entities| This is my solution to a local company's assessment on data analysis.|
+| Opinión s/ Entidades Financieras | Bar, Column and clustered charts - Spanish language - Banking industry | This is my solution to a local company's assessment on data analysis.|
