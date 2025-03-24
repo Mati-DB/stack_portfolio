@@ -1,8 +1,37 @@
 # Data Wrangling Assessment
 Below you can see the task provided by the company in both [English](#L4) and [Spanish](). Just note that the data sample provided is available only in Spanish.
 
-## Introduction
 As part of an assessment by a local company, I was tasked with transforming an SPSS database file into a more analysis-friendly format.
+
+## Task Description
+
+We received the preliminary results of a survey [(database in SPSS format)](#L36) and need to process the output from the platform to adapt it to the analysis requirements.
+
+The task consists of transforming the data to match the database structure presented below. This is the format used by our systems.
+
+| Response_ID	| variable	| valor |
+| --- | --- | --- |
+| 54239204	| FF1	| Persona Física |
+| 54239204	| FF2	| Si |
+| 54239204	| FF3	| Si |
+| 54239204	| FF4	| Servicios  Profesionales |
+| 54239204	| FF5	| ENTRE $ 600.001 Y $ 1.000.000 |
+| 54239204	| … |	… |
+| 54239204	| A1	| Banco.15 |
+| 54239204	| A1	| Banco.13 |
+| 54239204	| A1	| Banco.16 |
+| 54239204	| … |	… |
+
+- Each response is a row associated with the Response_ID and the corresponding variable. The dataset should contain three columns and as many rows as needed.
+- Multiple responses share the same variable value (refer to the file "Cuestionario Ejercicio BRN 2023.docx" for guidance). *--> Clarification for the reader: You can use the [SPSS database sample](#L36) as guidance instead*
+
+The final file must be in .csv format.
+
+Additionally, include a brief explanation of the process followed to obtain the results.
+
+There are no restrictions on the tools used for this task.
+
+## Additional Notes for Readers:
 
 <ins>SPSS database sample</ins>:
 
@@ -11,6 +40,10 @@ As part of an assessment by a local company, I was tasked with transforming an S
 | 56020150 | SI | SI. Duenoo o Socio/ Gerente/ Contador | Servicios no Profesionales | ENTRE $ 600.001 Y $ 1.000.000 | AMBA | GBA SUR |  |  |  |  |  |  |  | Banco.90 | Banco.15 | NS/NC |  |  |  |  |  |  |  |  |  |  |  | Banco.15 |  |  |  |  |  |  |  |  |  |  |  | Banco.90 |  | Banco.15 |  |  |  |  |  |  |  |  |  |  | 8 |  |  |  |  |  |  |  |  |  |  |  | 10 |  |																																																																		
 | 56024025 | SI | SI. Duenoo o Socio/ Gerente/ Contador | Servicios  Profesionales | ENTRE $ 600.001 Y $ 1.000.000 | AMBA | GBA NORTE |  |  |  |  |  |  |  | Banco.3 | Banco.2 | Banco.7 | Banco.1 |  | Banco.2 | Banco.3 |  |  |  |  |  |  | Banco.13 |  |  |  |  |  |  |  |  |  |  |  |  | Banco.90 |  | Banco.2 |  | 10 | 10 |  |  |  |  |  |  | 8 |  |  |  |  |  |  |  |  |  |  |  |  | 10 |  |																																																																		
 | 54638665 | SI | SI. Duenoo o Socio/ Gerente/ Contador | Servicios  Profesionales | ENTRE $ 1.000.001 Y $ 2.000.000 | AMBA | CABA NORTE |  |  |  |  |  |  |  | NS/NC |  | NS/NC |  |  |  | Banco.3 |  |  |  | Banco.7 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Banco.3 |  |  | NS/NC |  |  |  | NS/NC |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |																																																																		
+
+
+
+
 
 
 
