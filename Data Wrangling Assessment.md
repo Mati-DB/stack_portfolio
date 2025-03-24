@@ -1,11 +1,11 @@
 # Data Wrangling Assessment
-Below you can see the task provided by the company in both [English](https://github.com/Mati-DB/stack_portfolio/edit/main/Data%20Wrangling%20Assessment.md#L4) and [Spanish](). Just note that the data sample provided is available only in Spanish.
+Below you can see the task provided by the company in both [English](#Task-Description) and [Spanish](). Just note that the data sample provided is available only in Spanish.
 
 As part of an assessment by a local company, I was tasked with transforming an SPSS database file into a more analysis-friendly format.
 
 ## Task Description
 
-We received the preliminary results of a survey [(database in SPSS format)](https://github.com/Mati-DB/stack_portfolio/edit/main/Data%20Wrangling%20Assessment.md#L36) and need to process the output from the platform to adapt it to the analysis requirements.
+We received the preliminary results of a survey [(database in SPSS format)](#SPSS-database-sample) and need to process the output from the platform to adapt it to the analysis requirements.
 
 The task consists of transforming the data to match the database structure presented below. This is the format used by our systems.
 
@@ -23,7 +23,7 @@ The task consists of transforming the data to match the database structure prese
 | 54239204	| … |	… |
 
 - Each response is a row associated with the Response_ID and the corresponding variable. The dataset should contain three columns and as many rows as needed.
-- Multiple responses share the same variable value (refer to the file "Cuestionario Ejercicio BRN 2023.docx" for guidance). *--> Clarification for the reader: You can use the [SPSS database sample](#L36) as guidance instead*
+- Multiple responses share the same variable value (refer to the file "Cuestionario Ejercicio BRN 2023.docx" for guidance). *--> Clarification for the reader: You can use the [SPSS database sample](#SPSS-database-sample) as guidance instead*
 
 The final file must be in .csv format.
 
