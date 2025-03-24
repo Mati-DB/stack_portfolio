@@ -3,6 +3,7 @@ Below you can see the task provided by the company in both [English](#Task-Descr
 
 As part of an assessment by a local company, I was tasked with transforming an SPSS database file into a more analysis-friendly format.
 
+---
 ## Task Description
 
 We received the preliminary results of a survey [(database in SPSS format)](#Additional-Notes-for-Readers) and need to process the output from the platform to adapt it to the analysis requirements.
@@ -40,6 +41,52 @@ There are no restrictions on the tools used for this task.
 | 56020150 | SI | SI. Duenoo o Socio/ Gerente/ Contador | Servicios no Profesionales | ENTRE $ 600.001 Y $ 1.000.000 | AMBA | GBA SUR |  |  |  |  |  |  |  | Banco.90 | Banco.15 | NS/NC |  |  |  |  |  |  |  |  |  |  |  | Banco.15 |  |  |  |  |  |  |  |  |  |  |  | Banco.90 |  | Banco.15 |  |  |  |  |  |  |  |  |  |  | 8 |  |  |  |  |  |  |  |  |  |  |  | 10 |  |																																																																		
 | 56024025 | SI | SI. Duenoo o Socio/ Gerente/ Contador | Servicios  Profesionales | ENTRE $ 600.001 Y $ 1.000.000 | AMBA | GBA NORTE |  |  |  |  |  |  |  | Banco.3 | Banco.2 | Banco.7 | Banco.1 |  | Banco.2 | Banco.3 |  |  |  |  |  |  | Banco.13 |  |  |  |  |  |  |  |  |  |  |  |  | Banco.90 |  | Banco.2 |  | 10 | 10 |  |  |  |  |  |  | 8 |  |  |  |  |  |  |  |  |  |  |  |  | 10 |  |																																																																		
 | 54638665 | SI | SI. Duenoo o Socio/ Gerente/ Contador | Servicios  Profesionales | ENTRE $ 1.000.001 Y $ 2.000.000 | AMBA | CABA NORTE |  |  |  |  |  |  |  | NS/NC |  | NS/NC |  |  |  | Banco.3 |  |  |  | Banco.7 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Banco.3 |  |  | NS/NC |  |  |  | NS/NC |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |																																																																		
+## Solution
+
+### %%
+import pandas as pd
+
+df = pd.read_excel(r'C:\Users\admin\Downloads\Python Projects\Projects\Brain Networks - Assessment\Base Ejercicio BRN 2023.xlsx')
+
+### %%
+df.head()
+
+# %% [markdown]
+### ## Initial pivoting
+
+### %%
+df_stack = df.set_index('responseID').stack().reset_index()
+df_final = df_stack.rename(columns={'level_1':'variable', 0:'valor'})
+df_final.head()
+
+### %% [markdown]
+### ## Parsing A9 question
+### 
+
+### %%
+A9_filter = df_final['variable'].str.startswith('A9_')
+
+df_final[A9_filter].head()
+
+### %%
+df_final.loc[A9_filter, 'variable'] = 'A9'
+
+df_final[A9_filter].head()
+
+### %% [markdown]
+### ## Parsing A13 question
+
+### %%
+A13_filter = df_final['variable'].str.startswith('A13')
+
+df_final[A13_filter].head()
+
+### %%
+df_final["variable"] = df_final["variable"].str.replace(r"A13_\d+\.", "A13_", regex=True)
+df_final[A13_filter].head()
+
+### %% [markdown]
+
 
 
 
