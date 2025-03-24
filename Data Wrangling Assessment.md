@@ -1,11 +1,11 @@
 # Data Wrangling Assessment
-Below you can see the task provided by the company in both [English](#L4) and [Spanish](). Just note that the data sample provided is available only in Spanish.
+Below you can see the task provided by the company in both [English](https://github.com/Mati-DB/stack_portfolio/edit/main/Data%20Wrangling%20Assessment.md#L4) and [Spanish](). Just note that the data sample provided is available only in Spanish.
 
 As part of an assessment by a local company, I was tasked with transforming an SPSS database file into a more analysis-friendly format.
 
 ## Task Description
 
-We received the preliminary results of a survey [(database in SPSS format)](#L36) and need to process the output from the platform to adapt it to the analysis requirements.
+We received the preliminary results of a survey [(database in SPSS format)](https://github.com/Mati-DB/stack_portfolio/edit/main/Data%20Wrangling%20Assessment.md#L36) and need to process the output from the platform to adapt it to the analysis requirements.
 
 The task consists of transforming the data to match the database structure presented below. This is the format used by our systems.
 
