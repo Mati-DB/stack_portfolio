@@ -5,7 +5,7 @@ As part of an assessment by a local company, I was tasked with transforming an S
 
 ## Task Description
 
-We received the preliminary results of a survey [(database in SPSS format)](#SPSS-database-sample) and need to process the output from the platform to adapt it to the analysis requirements.
+We received the preliminary results of a survey [(database in SPSS format)](#Additional-Notes-for-Readers) and need to process the output from the platform to adapt it to the analysis requirements.
 
 The task consists of transforming the data to match the database structure presented below. This is the format used by our systems.
 
@@ -23,7 +23,7 @@ The task consists of transforming the data to match the database structure prese
 | 54239204	| … |	… |
 
 - Each response is a row associated with the Response_ID and the corresponding variable. The dataset should contain three columns and as many rows as needed.
-- Multiple responses share the same variable value (refer to the file "Cuestionario Ejercicio BRN 2023.docx" for guidance). *--> Clarification for the reader: You can use the [SPSS database sample](#SPSS-database-sample) as guidance instead*
+- Multiple responses share the same variable value (refer to the file "Cuestionario Ejercicio BRN 2023.docx" for guidance). *--> Clarification for the reader: You can use the [SPSS database sample](#Additional-Notes-for-Readers) as guidance instead*
 
 The final file must be in .csv format.
 
