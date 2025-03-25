@@ -24,7 +24,7 @@ Welcome to my data portfolio! Here I document the projects I have in the data fi
 |--|--|--|
 | [Stock Holding vs EMA Crossover Strategy](https://github.com/Mati-DB/stack_portfolio/blob/main/NVDA_v2.ipynb) | _Finance, EMAs, Pandas, Seaborn, NumPy, yfinance_ | Find out if there is a significant difference between holding stocks over an extended period, or using EMAs in a dynamic trading strategy |
 | Data Analysis with Python | TBE | This repo shows how I solved the required projects for DataCamp's career track.  |
-| Data Wrangling Assessment | pandas, stack, regular expressions | This was a task within an assessment from a local company. |
+| [Data Wrangling Assessment](https://github.com/Mati-DB/stack_portfolio/blob/main/Local%20Company%20Assessment.ipynb) | pandas, stack, regular expressions | This was a task within an assessment from a local company. |
 
 ### Developer Interview Cases
 
